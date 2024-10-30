@@ -16,7 +16,9 @@ ul {
 }
 
 .name-section {
-  font: 700 36px/1.11;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
@@ -27,22 +29,29 @@ ul {
 
 .logo-main,
 .logo-nav {
-  font: 700 18px/1.17 "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
 
 .logo-nav {
   color: #2e2f42;
 }
+
 .logo-main {
   color: #4d5ae5;
 }
 
 .logo-footer {
   color: #f4f4fd;
-  font: 700 18px/1.5 "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
   letter-spacing: 3%;
+  font-family: "Raleway", sans-serif;
 }
 
 /* ==== Навігація та посилання ==== */
@@ -53,7 +62,9 @@ ul {
 }
 
 .nav-link {
-  font: 500 16px/1.5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .address {
@@ -93,7 +104,9 @@ ul {
 /* ==== Кнопка ==== */
 
 .order-button {
-  font: 500 16px/1.5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -108,13 +121,17 @@ ul {
 /* ==== Переваги ==== */
 
 .name-adv {
-  font: 500 20px/1.2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .adv-desc {
-  font: 400 16px/1.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -137,26 +154,34 @@ ul {
 }
 
 .name {
-  font: 500 20px/1.2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   text-transform: capitalize;
   color: #2e2f42;
 }
 
 .possition {
-  font: 400 16px/1.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   color: #434455;
 }
 
 /* ==== Портфоліо ==== */
 
 .project-name {
-  font: 500 20px/1.2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .project-type {
-  font: 400 16px/1.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
